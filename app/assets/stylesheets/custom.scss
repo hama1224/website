@@ -10,7 +10,10 @@ h1, h2 {
   width: 100vw;
   height: 100vh;
   background-image: url('oosaka-min.jpg');
-  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 
