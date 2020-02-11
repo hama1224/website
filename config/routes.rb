@@ -9,5 +9,6 @@ Rails.application.routes.draw do
   get 'pages/blog'
   get '/signup', to: 'users#new'
   resources :users
+  resources :posts
   
 end
