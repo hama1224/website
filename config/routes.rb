@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'contacts/new'
+  get 'contacts/create'
   get 'users/new'
   root 'pages#index'
   get 'pages/company_profile'
